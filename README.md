@@ -9,10 +9,10 @@ also how to override defaults and specify layouts on the action level.
 
 ## The Default Layout
 
-1. Make a new controller called `StaticController`.
-
+<!-- 1. Make a new controller called `StaticController`. -->
+<!-- 
 2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a
-   new action in `StaticController` called `home`.
+   new action in `StaticController` called `home`. -->
 
 3. Create a default application layout at the correct location, and add an `h1`
    to it that says "Flatiron Widgets Store". This is for the main site's welcome
@@ -20,30 +20,30 @@ also how to override defaults and specify layouts on the action level.
 
 ## Custom Layouts for a Controller
 
-1. Create a new controller called `StoreAdminController`.
+<!-- 1. Create a new controller called `StoreAdminController`. -->
 
-2. We want this controller to use a new layout called `admin`. This layout
-   should have an `h1` that says "Flatiron Widgets: Admin".
+<!-- 2. We want this controller to use a new layout called `admin`. This layout
+   should have an `h1` that says "Flatiron Widgets: Admin". -->
 
-3. Create a home view layout for `StoreAdminController` with an `h2` that says
-   "Welcome Flatiron Admin".
-
-4. Get your newly created action to use the `admin` template.
+<!-- 3. Create a home view layout for `StoreAdminController` with an `h2` that says
+   "Welcome Flatiron Admin". -->
+<!-- 
+4. Get your newly created action to use the `admin` template. -->
 
 ## Custom Layouts for an Action
 
-1. Create a new view for `StoreAdminController` called `orders` with an `h2` that
+<!-- 1. Create a new view for `StoreAdminController` called `orders` with an `h2` that
    says "Welcome to Flatiron Open Orders". Also add an `ol` with a few `li`
-   elements containing fake orders.
-
+   elements containing fake orders. -->
+<!-- 
 2. Now you should create a new layout called `order_administration` and add an
-   `h1` that says "Flatiron Widgets: Open Orders".
+   `h1` that says "Flatiron Widgets: Open Orders". -->
 
-3. At this point, the `store_admin#orders` action will use the `admin` layout
+<!-- 3. At this point, the `store_admin#orders` action will use the `admin` layout
    you defined earlier, but we need it to use the new `order_administration`
    layout. The trick is we want only the `store_admin#orders` action to use the
    `order_administration` layout, and we want to keep the `admin` layout as the
-   default for the other actions in `StoreAdminController`.
+   default for the other actions in `StoreAdminController`. -->
 
 ## Ignore Layouts for an Action
 
